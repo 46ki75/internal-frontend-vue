@@ -7,7 +7,7 @@
     "node": "^18.0.0"
   },
   "scripts": {
-    "test": "vitest",
+    "test": "vitest --ui",
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
@@ -23,6 +23,7 @@
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "@typescript-eslint/parser": "^6.7.5",
     "@vitejs/plugin-vue": "^4.4.0",
+    "@vitest/ui": "^0.34.6",
     "@vue/server-renderer": "^3.3.4",
     "@vue/test-utils": "^2.4.1",
     "eslint": "^8.51.0",
